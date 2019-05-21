@@ -1,8 +1,10 @@
+
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import util from '../../helpers/util';
-import googleImage from './googlebutton.png';
 
+import util from '../../helpers/util';
+
+import googleImage from './googlebutton.png';
 
 const signMeIn = () => {
   const provider = new firebase.auth.GoogleAuthProvider();
@@ -10,7 +12,7 @@ const signMeIn = () => {
 };
 
 const authStringBuilder = () => {
-  let domString = '<button id="google-auth" class=btn btn-danger">';
+  let domString = '<button id="google-auth" class="btn btn-danger">';
   domString += `<img src=${googleImage} />`;
   domString += '</button>';
   util.printToDom('auth', domString);

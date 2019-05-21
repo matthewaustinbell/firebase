@@ -1,8 +1,8 @@
+
 import util from '../../helpers/util';
 
 const birfdayStringBuilder = () => {
-  let domString = '';
-  domString += '<h3>stuff</h3>';
+  const domString = 'Birfday';
   util.printToDom('birfday', domString);
 };
 
