@@ -4,6 +4,16 @@ body {
   background-color: #001f3f;
 }
 
+h1, .h1 {
+  font-size: 3.5rem;
+  -webkit-text-fill-color: snow;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+  color: snow;
+}
+
 .hide{
   display: none;
 }
